@@ -179,39 +179,43 @@
     color: #ffffff;
     font-family: Playfair Display;
     display: grid;
-    grid-gap: 23px;
+    grid-gap: 2%;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 289px 325px 120px 325px 120px;
-    width: 50vw;
-    padding-left: 405px;
-    padding-right: 405px;
+    grid-template-rows: 20% 30% 10% 30% 10%;
+    width: 60vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 150px;
 }
 .fresh_supplies {
     grid-area: 1/1/2/5;
     align-self: center;
     justify-self: center;
-    font-size: 36px;
+    font-size: 1.7em;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: center;
 
 }
-.underline {
+.part4_underline {
     grid-area: 1/1/2/5;
     text-align: right;
     align-self: center;
     justify-self: center;
     margin-top: 100px;
+    size: 1px;
+    width: 120px;
 }
 .part4_pics {
     align-self: center;
     justify-self: center;
-    background: #191B1C;
+    background-color: #191B1C;
+    
 }
 .part4_names {
     align-self: center;
     justify-self: center;
-    font-size: 18px;
+    font-size: 1em;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
@@ -223,18 +227,34 @@
 .article_5 {
     background-color: #0F0F0F;
     color: #ffffff;
-    align-self: center;
-    justify-self: center;
-    width: 1920px;
-    height: 362px;
+    font-family: Playfair Display;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 70% 30%;
+    width: 60vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 80px;
 }
 .our_brands {
-    margin-top: 60px;
+    grid-area: 1/1/2/5;
+    font-size: 1.7em;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.part5_underline {
+    grid-area: 1/1/2/5;
+    text-align: right;
+    align-self: center;
+    justify-self: center;
+    margin-top: 7%;
+    size: 1px;
+    width: 120px;
 }
 .part5_pics {
-    display: inline-flex;
-    width: 1260px;
-    justify-content: space-around;
-    align-items: center;
+    align-self: center;
+    justify-self: center;
 }
 /*FOOTER*/
