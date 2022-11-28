@@ -235,7 +235,87 @@
 /*article_3*/
 
 /*article_4*/
+.article_4 {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Playfair Display;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 20% 30% 10% 30% 10%;
+    width: 60vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 150px;
+}
+.fresh_supplies {
+    grid-area: 1/1/2/5;
+    align-self: center;
+    justify-self: center;
+    font-size: 1.7em;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.part4_underline {
+    grid-area: 1/1/2/5;
+    text-align: right;
+    align-self: center;
+    justify-self: center;
+    margin-top: 100px;
+    size: 1px;
+    width: 120px;
+}
+.part4_pics {
+    align-self: center;
+    justify-self: center;
+    background-color: #191B1C;
+    
+}
+.part4_names {
+    align-self: center;
+    justify-self: center;
+    font-size: 1em;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px;
+
+}
 
 /*article_5*/
-
+.article_5 {
+    background-color: #0F0F0F;
+    color: #ffffff;
+    font-family: Playfair Display;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 70% 30%;
+    width: 60vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 80px;
+}
+.our_brands {
+    grid-area: 1/1/2/5;
+    font-size: 1.7em;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.part5_underline {
+    grid-area: 1/1/2/5;
+    text-align: right;
+    align-self: center;
+    justify-self: center;
+    margin-top: 7%;
+    size: 1px;
+    width: 120px;
+}
+.part5_pics {
+    align-self: center;
+    justify-self: center;
+}
 /*FOOTER*/
