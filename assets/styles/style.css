@@ -223,6 +223,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
     color: white;
     font-family: 'Playfair Display', serif;
 }
@@ -234,8 +235,8 @@
     align-items: center;
 
     width: 40%;
-    padding: 10px;
     height:400px;
+    padding: 10px;
     background-image:url(../images/article_2/Rectangle8.png);
     background-size: cover;
     color: white;
