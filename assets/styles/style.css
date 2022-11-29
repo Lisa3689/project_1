@@ -196,11 +196,16 @@
     display: flex;
     justify-content: center;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .container_images_part2 {
     display: flex;
     justify-content: space-around;
+}
+
+.watch_part2 {
+    width: 150px;
 }
 
 .names_part2 {
@@ -209,28 +214,36 @@
     align-items: center;
     
     color: white;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
 }
 
 .part2_right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    
+
     width: 40%;
     padding: 10px;
     height:400px;
     background-image:url(../images/article_2/Rectangle8.png);
+    background-size: cover;
     color: white;
 }
 
-.watch_part2 {
-    width: 150px;
+.line_part2 {
+    width: 15%;
 }
 
 .catalogue {
     width: 100px;
+    margin: 3%;
+    font-family:'PT Sans';
+    color: white;
+    background-color: transparent;
+    border: 1px solid #f8f6f6; 
+    font-size: 14px;
+    padding: 5px 20px;
 }
 
 /*article_3*/
