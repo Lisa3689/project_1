@@ -190,6 +190,8 @@
 .part2_left {
     width: 60%;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .title_part2 {
@@ -197,22 +199,30 @@
     justify-content: center;
     color: white;
     font-family: 'Playfair Display', serif;
+    padding-top: 3%;
+}
+
+.line_part2_left {
+    width: 10%;
+    align-self: center;
 }
 
 .container_images_part2 {
     display: flex;
     justify-content: space-around;
+    padding: 3%;
 }
 
 .watch_part2 {
     width: 150px;
+    background-color: #191B1C;
+    padding: 3%;
 }
 
 .names_part2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
     color: white;
     font-family: 'Playfair Display', serif;
 }
