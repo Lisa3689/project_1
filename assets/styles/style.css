@@ -126,6 +126,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
     color: white;
     font-family: Playfair Display;
 }
@@ -135,12 +136,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     width: 40%;
     padding: 10px;
     height:400px;
     background-image:url(../images/article_2/Rectangle8.png);
     color: white;
-    
 }
 
 .watch_part2 {
