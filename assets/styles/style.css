@@ -269,7 +269,7 @@
     grid-gap: 2%;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 20% 30% 10% 30% 10%;
-    
+    width: 60vw;
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 150px;
@@ -319,7 +319,7 @@
     grid-gap: 18px;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 70% 30%;
-    
+    width: 60vw;
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 80px;
@@ -345,3 +345,109 @@
     justify-self: center;
 }
 /*FOOTER*/
+
+.footer {
+    height: 21vw;
+
+    background-image: url(../images/footer/background_footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: grid;
+    grid-template-columns: 15vw 25vw 22vw 19vw 15vw;
+    grid-template-rows: 20% 80%;
+    justify-items:flex-start;
+    align-items: flex-start;
+    row-gap: 2vw;
+    column-gap: 1.5vw;
+
+
+    color: white;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+    align-self: flex-end;
+
+    font-family: 'Playfair Display';
+    font-size: calc(13px + 11 * (100vw / 1920));
+    line-height: 117%;
+    text-transform: uppercase;
+}
+
+.footer4,
+.footer5,
+.footer6 {
+    align-self: flex-start;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(5px + 9 * (100vw / 1920));
+    line-height: 150%;
+    letter-spacing: 0.05em;
+}
+
+.category_footer_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.footer5 .item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+    background-color: #000000;
+    background-size: contain;
+}
+
+.subscribe {
+    padding-top: 2.5vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.mail_footer_form {
+    height: 2.1vw;
+    width: 10vw;
+    padding:0px;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+
+}
+
+.mail_footer_form ::-webkit-input-placeholder {
+    color: #ffffff;
+    }
+
+.mail_footer_form::-moz-placeholder {
+    color: #ffffff;
+    }
+
+.subscribe_button {
+    height: 2.1vw;
+    width: 7.2vw;
+    padding:0px;
+
+    background-color: #000000;
+    color: white;
+    border: none; 
+
+    text-align: center;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(3px + 11 * (100vw / 1920));;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+}
