@@ -20,5 +20,5 @@
 
 - Адаптивный дизаин применяется при экранах мобильных устройств максимального рзмера 767px.
   <img width="300" alt="Без имени1" src="https://user-images.githubusercontent.com/112322977/205482163-7cec1529-de58-4d38-9f32-7b84ff242df5.png">
-  <img width="300" alt="Без имени2" src="https://user-images.githubusercontent.com/112322977/205482159-5024e1c5-fa61-4cd9-948f-fca697466ff7.png">
-  <img width="330" alt="Без имени3" src="https://user-images.githubusercontent.com/112322977/205482128-537bdc9a-b157-4378-b6c0-dc37b4c26833.png">
+  <img width="300" alt="Без имени2 1" src="https://user-images.githubusercontent.com/112322977/205482869-766a7374-a6da-4363-a85d-39b5115b24d7.png">
+  <img width="300" alt="Без имени3" src="https://user-images.githubusercontent.com/112322977/205482894-8b064d05-6ab8-4bc7-8d16-981333e00489.png">
